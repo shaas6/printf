@@ -12,7 +12,7 @@ int (*find_function(char format))(va_list)
 
 	format_t array[] = {
 		{"c", printf_c}, {"%", printf_percent}, {"s", printf_str},
-		{NULL, NULL}
+		{"i", printf_int}, {"d", printf_int}, {NULL, NULL}
 	};
 
 	for (i = 0; array[i].c != NULL; i++)
@@ -24,7 +24,7 @@ int (*find_function(char format))(va_list)
 }
 
 /**
- * _printf - prints formatted string to sto
+ * _printf - prints whatever we want, MUAHAHAHA
  * @format: format argument
  * Return: count
  */
