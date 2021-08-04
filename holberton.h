@@ -24,6 +24,8 @@ int _putchar(char c);
 int _strlen(char *s);
 int printf_int(va_list arg);
 char* itoa(int num, char* str, int base);
+void rev_string(char *s);
+int _strlen(char *s);
 
 /* add print_num */
 int _printf(const char *format, ...);

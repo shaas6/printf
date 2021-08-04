@@ -1,11 +1,11 @@
-/* This program was heavily influenced from the function found here:
-* https://www.geeksforgeeks.org/implement-itoa/
-*/
-
 #include "holberton.h"
 
-// Implementation of itoa()
-char* itoa(int num, char* str, int base)
+/**
+ * itoa - changes int to string
+ * This program was heavily influenced from the function found here:
+ * https://www.geeksforgeeks.org/implement-itoa/
+ */
+char *itoa(int num, char *str, int base)
 {
 	int i = 0;
 	int isNegative;
@@ -15,33 +15,35 @@ char* itoa(int num, char* str, int base)
 	{
 		str[i++] = '0';
 		str[i] = '\0';
-		return str;
+		return (str);
 	}
 
-	// In standard itoa(), negative numbers are handled only with
-	// base 10. Otherwise numbers are considered unsigned.
+	/* In standard itoa(), negative numbers are handled only with*/
+	/* base 10. Otherwise numbers are considered unsigned.*/
 	if (num < 0 && base == 10)
 	{
-		isNegative = free;
+		isNegative = 1;
 		num = -num;
 	}
 
-	// Process individual digits
+	/* Process individual digits */
 	while (num != 0)
 	{
 		int rem = num % base;
-		str[i++] = (rem > 9)? (rem-10) + 'a' : rem + '0';
-		num = num/base;
+
+		str[i++] = (rem > 9) ? (rem - 10) + 'a' : rem + '0';
+
+		num = num / base;
 	}
 
-	// If number is negative, append '-'
+	/* If number is negative, append '-' */
 	if (isNegative)
 		str[i++] = '-';
 
-	str[i] = '\0'; // Append string terminator
+	str[i] = '\0'; /* Append string terminator */
 
-	// Reverse the string
-	reverse(str, i);
+	/* Reverse the string */
+	rev_string(str);
 
-	return str;
+	return (str);
 }
