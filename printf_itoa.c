@@ -2,7 +2,6 @@
 * https://www.geeksforgeeks.org/implement-itoa/
 */
 
-
 #include "holberton.h"
 
 // Implementation of itoa()
