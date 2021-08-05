@@ -29,5 +29,5 @@ int printf_int(va_list arg)
 		_putchar(translation[i]);
 	}
 	free(translation);
-	return (1);
+	return (i);
 }
