@@ -43,7 +43,7 @@ int _printf(const char *format, ...)
 
 	for (x = 0; format[x] != '\0'; x++) /* goes through the string */
 	{
-		if (format[x] == '%') /* until you find a % */
+		if (format[x] == '%') /* until it finds a % */
 		{
 			x++; /* move to next character */
 			func = find_function(format[x]); /* match function */
