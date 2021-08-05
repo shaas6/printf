@@ -3,7 +3,7 @@
 /**
  * find_function - matches the correct print function to use
  * @format: specific character
- * Return: function, null no match
+ * Return: function, if no match return null
  */
 
 int (*find_function(char format))(va_list)
@@ -24,7 +24,7 @@ int (*find_function(char format))(va_list)
 }
 
 /**
- * _printf - prints whatever we want, MUAHAHAHA
+ * _printf - prints stuff
  * @format: format argument
  * Return: count
  */
