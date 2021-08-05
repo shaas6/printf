@@ -1,9 +1,9 @@
 #include "holberton.h"
 
 /**
- * _strlen - string length ... I had Ramen for dinner
- * @s: SsSsssSssSSSss
- * Return: count ... ing the hours I invest into progress
+ * _strlen - string length
+ * @s: variable
+ * Return: the count
  */
 
 int _strlen (char * s)
