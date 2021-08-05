@@ -18,7 +18,7 @@ int _strlen (char * s)
 }
 
 /**
- * printf_str - Print the string
+ * printf_str - Prints the string
  * @arg: argument
  */
 
