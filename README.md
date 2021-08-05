@@ -69,3 +69,4 @@ Printf has been an extremely difficult challenge. It's called upon skills and mu
 Let's hope making a shell doesn't make me want to pull my hair out like this did! 
 
 # Patrick's thoughts
+Our printf project is the first time that I really feel like we are implementing the skills learned at Holberton/DAE. At first I felt lost in a sea of imformation and challenges, but luckily I was paired with two great parteners. From multiple functions, to building repos, to solving edge cases, this project has truly been an education. This experience is the first step towards the ultimate goal of working with talented engineers on challenging albeit rewarding projects.
