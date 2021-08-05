@@ -2,8 +2,6 @@
 
 /**
  * itoa - changes int to string
- * This program was heavily influenced from the function found here:
- * https://www.geeksforgeeks.org/implement-itoa/
  */
 char *itoa(int num, char *str, int base)
 {

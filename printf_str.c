@@ -12,7 +12,7 @@ int _strlen (char * s)
 
 	while (* (s + count))
 	{
-		count ++;
+		count++;
 	}
 	return (count);
 }
@@ -28,8 +28,8 @@ int printf_str (va_list arg)
 	int i, length;
 
 	length = _strlen (s);
-	for (i = 0; i <length; i ++)
-		_putchar (s [i]);
+	for (i = 0; i < length; i++)
+		_putchar (s[i]);
 
 	return (length);
 }

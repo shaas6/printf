@@ -31,6 +31,7 @@ int (*find_function(char format))(va_list)
 
 int _printf(const char *format, ...)
 {
+	char option = '\n';
 	int x;
 	int count = 0;
 	int (*func)(va_list);
@@ -55,7 +56,13 @@ int _printf(const char *format, ...)
 			}
 			else
 				count += func(arg);
+		} /* option? */
+		else if (format[x] == '%' && option)
+		{
+			_putchar('%');
+			_putchar(10);
 		}
+
 		else
 		{
 			_putchar(format[x]); /* prints a string */
