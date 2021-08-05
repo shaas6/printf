@@ -44,6 +44,7 @@ char *itoa(int num, char *str, int base)
 
 	/* Reverse the string */
 	rev_string(str);
+	printf("%s", str);
 
 	return (str);
 }

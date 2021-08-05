@@ -22,7 +22,7 @@ int printf_int(va_list arg)
 	/* malloc 12 chars */
 
 	translation = malloc(sizeof(char) * 12);
-	translation = itoa(n, translation, base);
+	_strcpy(translation, itoa(n, translation, base));
 
 	for (i = 0; i < '\0'; i++)
 	{

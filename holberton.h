@@ -23,7 +23,9 @@ typedef struct format
 int _putchar(char c);
 int _strlen(char *s);
 int printf_int(va_list arg);
-char* itoa(int num, char* str, int base);
+char (*itoa(int num, char* str, int base));
+char *_strcpy(char *dest, char *src);
+/* char *printf_itoa(int num, char *dig_int); */
 void rev_string(char *s);
 int _strlen(char *s);
 
