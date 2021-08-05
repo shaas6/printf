@@ -65,6 +65,7 @@ Notion: https://tinyurl.com/27hh732s
 
 
 # Sean's thoughts
-Printf has been an extremely difficult challenge. It's called upon skills and muscle memory that we hadn't thought about, really at all up until printf started asking the really hard questions. We attempted to avoid taking the easy route in most regards and it's forced us down rabbit holes and to ask questions that we otherwise wouldn't have considered. The code we've built does function, even if we haven't provided for every edge case imaginable, and it was a fantastic learning experience. 
+Printf has been an extremely difficult challenge. It's called upon skills and muscle memory that we hadn't thought about, really at all up until printf started asking the really hard questions. We attempted to avoid taking the easy route in most regards and it's forced us down rabbit holes and to ask questions that we otherwise wouldn't have considered. The code we've built does function, even if we haven't provided for every edge case imaginable, and it was a fantastic learning experience.
+Let's hope making a shell doesn't make me want to pull my hair out like this did! 
 
 # Patrick's thoughts
