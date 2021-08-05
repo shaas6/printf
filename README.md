@@ -5,7 +5,7 @@ a formatted string. Within this command are several pre-compiled and
 dynamic pieces, all working together to display
 numbers, characters, strings, etc.
 
-We were tasked with creating our own, which took a lot of work, which
+We were tasked with creating our own, which took a lot of work. This
 equated to time and energy spent on understanding what was being asked
 of us and languaging it in a way for our computers to understand using the
 C programming language.
