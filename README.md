@@ -70,3 +70,5 @@ Let's hope making a shell doesn't make me want to pull my hair out like this did
 
 # Patrick's thoughts
 Our printf project is the first time that I really feel like we are implementing the skills learned at Holberton/DAE. At first I felt lost in a sea of imformation and challenges, but luckily I was paired with two great parteners. From multiple functions, to building repos, to solving edge cases, this project has truly been an education. This experience is the first step towards the ultimate goal of working with talented engineers on challenging albeit rewarding projects.
+
+The most challengin part of the project was definitely trying to find the best ways to apprach the tasks and the edge cases that arose. It seems our first go at the code was halted by the fact out function was over 40 lines, which led to some great information about. We aslo ran into various git hang-ups that we solved quite qucikly. We eventually reverted to another approach, but the use of funtion pointers was incredibly difficult to fully understand. I think we did a good job at keeping out cool and tackling each challenge as it came.
