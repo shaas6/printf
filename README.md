@@ -2,6 +2,7 @@
 
 
 # Daudi's thoughts
+Victory is ours.
 
 # Sean's thoughts
 

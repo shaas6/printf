@@ -31,5 +31,5 @@ int printf_str (va_list arg)
 	for (i = 0; i <length; i ++)
 		_putchar (s [i]);
 
-	return (0);
+	return (length);
 }

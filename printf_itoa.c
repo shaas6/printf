@@ -26,6 +26,7 @@ char *itoa(int num, char *str, int base)
 		num = -num;
 	}
 
+	/* QUESTIONING THIS */
 	/* Process individual digits */
 	while (num != 0)
 	{
@@ -44,7 +45,6 @@ char *itoa(int num, char *str, int base)
 
 	/* Reverse the string */
 	rev_string(str);
-	printf("%s", str);
 
 	return (str);
 }

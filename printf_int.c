@@ -24,7 +24,7 @@ int printf_int(va_list arg)
 	translation = malloc(sizeof(char) * 12);
 	_strcpy(translation, itoa(n, translation, base));
 
-	for (i = 0; i < '\0'; i++)
+	for (i = 0; translation[i] != '\0'; i++)
 	{
 		_putchar(translation[i]);
 	}

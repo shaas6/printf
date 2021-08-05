@@ -10,5 +10,5 @@ int printf_percent(va_list __attribute__((unused)) arg)
 
 	_putchar(x);
 
-	return (0);
+	return (1);
 }
