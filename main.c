@@ -9,7 +9,7 @@
  */
 int main(void)
 {
-
+/*
     int len;
     int len2;
     unsigned int ui;
@@ -28,12 +28,13 @@ int main(void)
 
     _printf("Character:[%c]\n", 'H');
     printf("Character:[%c]\n", 'H');
-
+*/
     /* MARK: Edge case */
 /*
     printf(NULL);
-*/
     _printf(NULL);
+*/
+/*
     printf("%s%c%c%c%s%%%s%c", "Loading ", '.', '.', '.', " 99", " Please wait", '\n');
     _printf("%s%c%c%c%s%%%s%c", "Loading ", '.', '.', '.', " 99", " Please wait", '\n');
 
@@ -42,11 +43,13 @@ int main(void)
 
     _printf("%c", '\0');
     printf("%c", '\0');
+*/
 
+/*    printf("%");
     _printf("%");
-    printf("%");
-    /*MARK: End of edge case */
 
+ MARK: End of edge case */
+/*
     _printf("String:[%s]\n", "I am a string !");
     printf("String:[%s]\n", "I am a string !");
 
@@ -55,6 +58,13 @@ int main(void)
 
     _printf("Len:[%d]\n", len);
     printf("Len:[%d]\n", len2);
+*/
+/*
+	printf("%!\n");
+	_printf("%!\n");
+*/
+	printf("%K\n");
+	_printf("%K\n");
 
-    return (0);
+	return (0);
 }
