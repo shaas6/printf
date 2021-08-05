@@ -10,7 +10,7 @@ char *itoa(int num, char *str, int base)
 	int i = 0;
 	int isNegative;
 
-	/* Handle 0 explicitely, otherwise empty string is printed for 0 */
+	/* Handle 0 explicitly, otherwise empty string will be printed for 0 */
 	if (num == 0)
 	{
 		str[i++] = '0';
@@ -26,7 +26,6 @@ char *itoa(int num, char *str, int base)
 		num = -num;
 	}
 
-	/* QUESTIONING THIS */
 	/* Process individual digits */
 	while (num != 0)
 	{

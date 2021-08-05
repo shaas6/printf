@@ -5,7 +5,7 @@ a formatted string. Within this command are several pre-compiled and
 dynamic pieces, all working together to display
 numbers, characters, strings, etc.
 
-We were tasked with creating our own, which took a lot of work, which
+We were tasked with creating our own, which took a lot of work. This
 equated to time and energy spent on understanding what was being asked
 of us and languaging it in a way for our computers to understand using the
 C programming language.
@@ -65,6 +65,12 @@ Notion: https://tinyurl.com/27hh732s
 
 
 # Sean's thoughts
-
+Printf has been an extremely difficult challenge. It's called upon skills and muscle memory that we hadn't thought about, really at all up until printf started asking the really hard questions. We attempted to avoid taking the easy route in most regards and it's forced us down rabbit holes and to ask questions that we otherwise wouldn't have considered. The code we've built does function, even if we haven't provided for every edge case imaginable, and it was a fantastic learning experience.
+Let's hope making a shell doesn't make me want to pull my hair out like this did! 
 
 # Patrick's thoughts
+Our printf project is the first time that I really feel like we are implementing the skills learned at Holberton/DAE. At first I felt lost in a sea of imformation and challenges, but luckily I was paired with two great parteners. From multiple functions, to building repos, to solving edge cases, this project has truly been an education. This experience is the first step towards the ultimate goal of working with talented engineers on challenging albeit rewarding projects.
+
+The most challengin part of the project was definitely trying to find the best ways to apprach the tasks and the edge cases that arose. It seems our first go at the code was halted by the fact out function was over 40 lines, which led to some great information about. We aslo ran into various git hang-ups that we solved quite qucikly. We eventually reverted to another approach, but the use of funtion pointers was incredibly difficult to fully understand. I think we did a good job at keeping out cool and tackling each challenge as it came.
+
+My overall accessment of the Printf project is that there are a lot of different ways of doing. If I had to do it over, I would definitely try to look through my old projects more and try to piece things together to save more time; it was very easy to get lost in writing new code for new problems, that ultimately caused new problems to fix. I am really happy with how our team adjusted during the whole process, even without a concrete gameplan from the jump, a real effort was made to find the right solutions when we needed them. I am happy I was able to take part in this challenge with my partners and am looking forward to more.
