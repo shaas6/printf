@@ -41,7 +41,7 @@ int _printf(const char *format, ...)
 
 	va_start(arg, format);
 
-	for (x = 0; format[x] != '\0'; x++) /* go through the string */
+	for (x = 0; format[x] != '\0'; x++) /* goes through the string */
 	{
 		if (format[x] == '%') /* until you find a % */
 		{
