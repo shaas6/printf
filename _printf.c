@@ -58,7 +58,7 @@ int _printf(const char *format, ...)
 		}
 		else
 		{
-			_putchar(format[x]); /* print string */
+			_putchar(format[x]); /* prints a string */
 			count++;
 		}
 	}
