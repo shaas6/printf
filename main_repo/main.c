@@ -30,10 +30,10 @@ int main(void)
     printf("Character:[%c]\n", 'H');
 
     /* MARK: Edge case */
-
-    /*  printf(NULL); */
+/*
+    printf(NULL);
     _printf(NULL);
-
+*/
     printf("%s%c%c%c%s%%%s%c", "Loading ", '.', '.', '.', " 99", " Please wait", '\n');
     _printf("%s%c%c%c%s%%%s%c", "Loading ", '.', '.', '.', " 99", " Please wait", '\n');
 
