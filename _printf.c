@@ -50,6 +50,7 @@ int _printf(const char *format, ...)
 			func = find_function(format[x]); /* match function */
 			if (func == NULL) /* if func doesn't match */
 			{
+				count += _putchar("%");
 				count += _putchar(format[x]);
 			}
 			else
