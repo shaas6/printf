@@ -2,6 +2,8 @@
 
 /**
  * printf_c - prints the relevant character
+ * @c: character reference
+ * Return: ZERO
  */
 
 int printf_c(va_list c)

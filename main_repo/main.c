@@ -31,7 +31,7 @@ int main(void)
 
     /* MARK: Edge case */
 
-    printf(NULL);
+    /*  printf(NULL); */
     _printf(NULL);
 
     printf("%s%c%c%c%s%%%s%c", "Loading ", '.', '.', '.', " 99", " Please wait", '\n');
@@ -58,11 +58,18 @@ int main(void)
     _printf("Len:[%d]\n", len);
     printf("Len:[%d]\n", len2);
 
-	printf("%!\n");
+
+        printf("%!\n");
 	_printf("%!\n");
 
 	printf("%K\n");
 	_printf("%K\n");
 
+/* MARK: New edge cases */
+	_printf("%c", 'S');
+	printf("%c", 'S');
+
+	_printf("Complete the sentence: You %s nothing, Jon Snow.\n", (char *)0);
+	printf("Complete the sentence: You %s nothing, Jon Snow.\n", (char *)0);
 	return (0);
 }

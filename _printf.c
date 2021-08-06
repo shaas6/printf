@@ -39,24 +39,20 @@ int _printf(const char *format, ...)
 
 	if (!format)
 		return (-1);
-
 	va_start(arg, format);
-
+	if (format == NULL)
+		format = "(null)";
 	for (x = 0; format[x] != '\0'; x++) /* goes through the string */
 	{
 		if (format[x] == '%' && format[x + 1] == '\0')
-		{
 			putchar('%');
-		}
 		else if (format[x] == '%') /* until it finds a % */
 		{
 			x++; /* move to next character */
 			func = find_function(format[x]); /* match function */
 			if (func == NULL) /* if func doesn't match */
 			{
-				_putchar('%');
-				_putchar(format[x]);
-				count += 2;
+				count += _putchar(format[x]);
 			}
 			else
 				count += func(arg);
@@ -66,7 +62,6 @@ int _printf(const char *format, ...)
 			_putchar('%');
 			_putchar(10);
 		}
-
 		else
 		{
 			_putchar(format[x]); /* prints a string */

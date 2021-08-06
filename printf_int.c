@@ -2,8 +2,7 @@
 
 /**
  * printf_int - Print integers; both decimal and whole
- * @n: Number
- * @list: va_list
+ * @arg: argument
  * Return: Number
  */
 

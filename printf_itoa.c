@@ -2,6 +2,10 @@
 
 /**
  * itoa - changes int to string
+ * @num: number
+ * @str: string
+ * @base: BASS
+ * Return: string
  */
 char *itoa(int num, char *str, int base)
 {
